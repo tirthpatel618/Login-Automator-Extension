@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3152002C594FA5000313CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3151FF2C594FA5000313CF /* AppDelegate.swift */; };
+		4C3152042C594FA5000313CF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152022C594FA5000313CF /* Main.html */; };
+		4C3152062C594FA5000313CF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152052C594FA5000313CF /* Icon.png */; };
+		4C3152082C594FA5000313CF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152072C594FA5000313CF /* Style.css */; };
+		4C31520A2C594FA5000313CF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152092C594FA5000313CF /* Script.js */; };
+		4C31520C2C594FA5000313CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31520B2C594FA5000313CF /* ViewController.swift */; };
+		4C31520F2C594FA5000313CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C31520D2C594FA5000313CF /* Main.storyboard */; };
+		4C3152112C594FA7000313CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152102C594FA7000313CF /* Assets.xcassets */; };
+		4C31521D2C594FA8000313CF /* Login_AutomatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31521C2C594FA8000313CF /* Login_AutomatorTests.swift */; };
+		4C3152272C594FA8000313CF /* Login_AutomatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3152262C594FA8000313CF /* Login_AutomatorUITests.swift */; };
+		4C3152292C594FA8000313CF /* Login_AutomatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3152282C594FA8000313CF /* Login_AutomatorUITestsLaunchTests.swift */; };
+		4C31522F2C594FA8000313CF /* Login Automator Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C31522E2C594FA8000313CF /* Login Automator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C3152342C594FA8000313CF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3152332C594FA8000313CF /* SafariWebExtensionHandler.swift */; };
+		4C3152372C594FA8000313CF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152362C594FA8000313CF /* _locales */; };
+		4C3152392C594FA8000313CF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152382C594FA8000313CF /* images */; };
+		4C31523B2C594FA8000313CF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C31523A2C594FA8000313CF /* manifest.json */; };
+		4C31523D2C594FA8000313CF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C31523C2C594FA8000313CF /* background.js */; };
+		4C31523F2C594FA8000313CF /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C31523E2C594FA8000313CF /* content.js */; };
+		4C3152412C594FA8000313CF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152402C594FA8000313CF /* popup.html */; };
+		4C3152432C594FA8000313CF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152422C594FA8000313CF /* popup.css */; };
+		4C3152452C594FA8000313CF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C3152442C594FA8000313CF /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3152192C594FA8000313CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3151F42C594FA5000313CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3151FB2C594FA5000313CF;
+			remoteInfo = "Login Automator";
+		};
+		4C3152232C594FA8000313CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3151F42C594FA5000313CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3151FB2C594FA5000313CF;
+			remoteInfo = "Login Automator";
+		};
+		4C3152302C594FA8000313CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3151F42C594FA5000313CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C31522D2C594FA8000313CF;
+			remoteInfo = "Login Automator Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C31524D2C594FA8000313CF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C31522F2C594FA8000313CF /* Login Automator Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C3151FC2C594FA5000313CF /* Login Automator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Automator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3151FF2C594FA5000313CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C3152032C594FA5000313CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		4C3152052C594FA5000313CF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4C3152072C594FA5000313CF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		4C3152092C594FA5000313CF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		4C31520B2C594FA5000313CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C31520E2C594FA5000313CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3152102C594FA7000313CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3152122C594FA7000313CF /* Login_Automator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Login_Automator.entitlements; sourceTree = "<group>"; };
+		4C3152132C594FA7000313CF /* Login Automator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Login Automator.entitlements"; sourceTree = "<group>"; };
+		4C3152182C594FA8000313CF /* Login AutomatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login AutomatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C31521C2C594FA8000313CF /* Login_AutomatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AutomatorTests.swift; sourceTree = "<group>"; };
+		4C3152222C594FA8000313CF /* Login AutomatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login AutomatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3152262C594FA8000313CF /* Login_AutomatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AutomatorUITests.swift; sourceTree = "<group>"; };
+		4C3152282C594FA8000313CF /* Login_AutomatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AutomatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C31522E2C594FA8000313CF /* Login Automator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Login Automator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3152332C594FA8000313CF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4C3152362C594FA8000313CF /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		4C3152382C594FA8000313CF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		4C31523A2C594FA8000313CF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		4C31523C2C594FA8000313CF /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		4C31523E2C594FA8000313CF /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		4C3152402C594FA8000313CF /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		4C3152422C594FA8000313CF /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		4C3152442C594FA8000313CF /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		4C3152462C594FA8000313CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3152472C594FA8000313CF /* Login_Automator_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Login_Automator_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3151F92C594FA5000313CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3152152C594FA8000313CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31521F2C594FA8000313CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31522B2C594FA8000313CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3151F32C594FA5000313CF = {
+			isa = PBXGroup;
+			children = (
+				4C3151FE2C594FA5000313CF /* Login Automator */,
+				4C31521B2C594FA8000313CF /* Login AutomatorTests */,
+				4C3152252C594FA8000313CF /* Login AutomatorUITests */,
+				4C3152322C594FA8000313CF /* Login Automator Extension */,
+				4C3151FD2C594FA5000313CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3151FD2C594FA5000313CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3151FC2C594FA5000313CF /* Login Automator.app */,
+				4C3152182C594FA8000313CF /* Login AutomatorTests.xctest */,
+				4C3152222C594FA8000313CF /* Login AutomatorUITests.xctest */,
+				4C31522E2C594FA8000313CF /* Login Automator Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3151FE2C594FA5000313CF /* Login Automator */ = {
+			isa = PBXGroup;
+			children = (
+				4C3151FF2C594FA5000313CF /* AppDelegate.swift */,
+				4C31520B2C594FA5000313CF /* ViewController.swift */,
+				4C31520D2C594FA5000313CF /* Main.storyboard */,
+				4C3152102C594FA7000313CF /* Assets.xcassets */,
+				4C3152122C594FA7000313CF /* Login_Automator.entitlements */,
+				4C3152132C594FA7000313CF /* Login Automator.entitlements */,
+				4C3152012C594FA5000313CF /* Resources */,
+			);
+			path = "Login Automator";
+			sourceTree = "<group>";
+		};
+		4C3152012C594FA5000313CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C3152022C594FA5000313CF /* Main.html */,
+				4C3152052C594FA5000313CF /* Icon.png */,
+				4C3152072C594FA5000313CF /* Style.css */,
+				4C3152092C594FA5000313CF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C31521B2C594FA8000313CF /* Login AutomatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C31521C2C594FA8000313CF /* Login_AutomatorTests.swift */,
+			);
+			path = "Login AutomatorTests";
+			sourceTree = "<group>";
+		};
+		4C3152252C594FA8000313CF /* Login AutomatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3152262C594FA8000313CF /* Login_AutomatorUITests.swift */,
+				4C3152282C594FA8000313CF /* Login_AutomatorUITestsLaunchTests.swift */,
+			);
+			path = "Login AutomatorUITests";
+			sourceTree = "<group>";
+		};
+		4C3152322C594FA8000313CF /* Login Automator Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C3152332C594FA8000313CF /* SafariWebExtensionHandler.swift */,
+				4C3152462C594FA8000313CF /* Info.plist */,
+				4C3152472C594FA8000313CF /* Login_Automator_Extension.entitlements */,
+				4C3152352C594FA8000313CF /* Resources */,
+			);
+			path = "Login Automator Extension";
+			sourceTree = "<group>";
+		};
+		4C3152352C594FA8000313CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C3152362C594FA8000313CF /* _locales */,
+				4C3152382C594FA8000313CF /* images */,
+				4C31523A2C594FA8000313CF /* manifest.json */,
+				4C31523C2C594FA8000313CF /* background.js */,
+				4C31523E2C594FA8000313CF /* content.js */,
+				4C3152402C594FA8000313CF /* popup.html */,
+				4C3152422C594FA8000313CF /* popup.css */,
+				4C3152442C594FA8000313CF /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3151FB2C594FA5000313CF /* Login Automator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C31524E2C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login Automator" */;
+			buildPhases = (
+				4C3151F82C594FA5000313CF /* Sources */,
+				4C3151F92C594FA5000313CF /* Frameworks */,
+				4C3151FA2C594FA5000313CF /* Resources */,
+				4C31524D2C594FA8000313CF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3152312C594FA8000313CF /* PBXTargetDependency */,
+			);
+			name = "Login Automator";
+			productName = "Login Automator";
+			productReference = 4C3151FC2C594FA5000313CF /* Login Automator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C3152172C594FA8000313CF /* Login AutomatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3152512C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login AutomatorTests" */;
+			buildPhases = (
+				4C3152142C594FA8000313CF /* Sources */,
+				4C3152152C594FA8000313CF /* Frameworks */,
+				4C3152162C594FA8000313CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C31521A2C594FA8000313CF /* PBXTargetDependency */,
+			);
+			name = "Login AutomatorTests";
+			productName = "Login AutomatorTests";
+			productReference = 4C3152182C594FA8000313CF /* Login AutomatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3152212C594FA8000313CF /* Login AutomatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3152542C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login AutomatorUITests" */;
+			buildPhases = (
+				4C31521E2C594FA8000313CF /* Sources */,
+				4C31521F2C594FA8000313CF /* Frameworks */,
+				4C3152202C594FA8000313CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3152242C594FA8000313CF /* PBXTargetDependency */,
+			);
+			name = "Login AutomatorUITests";
+			productName = "Login AutomatorUITests";
+			productReference = 4C3152222C594FA8000313CF /* Login AutomatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4C31522D2C594FA8000313CF /* Login Automator Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C31524A2C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login Automator Extension" */;
+			buildPhases = (
+				4C31522A2C594FA8000313CF /* Sources */,
+				4C31522B2C594FA8000313CF /* Frameworks */,
+				4C31522C2C594FA8000313CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login Automator Extension";
+			productName = "Login Automator Extension";
+			productReference = 4C31522E2C594FA8000313CF /* Login Automator Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3151F42C594FA5000313CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4C3151FB2C594FA5000313CF = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4C3152172C594FA8000313CF = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4C3151FB2C594FA5000313CF;
+					};
+					4C3152212C594FA8000313CF = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4C3151FB2C594FA5000313CF;
+					};
+					4C31522D2C594FA8000313CF = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C3151F72C594FA5000313CF /* Build configuration list for PBXProject "Login Automator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C3151F32C594FA5000313CF;
+			productRefGroup = 4C3151FD2C594FA5000313CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3151FB2C594FA5000313CF /* Login Automator */,
+				4C3152172C594FA8000313CF /* Login AutomatorTests */,
+				4C3152212C594FA8000313CF /* Login AutomatorUITests */,
+				4C31522D2C594FA8000313CF /* Login Automator Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3151FA2C594FA5000313CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3152062C594FA5000313CF /* Icon.png in Resources */,
+				4C31520F2C594FA5000313CF /* Main.storyboard in Resources */,
+				4C31520A2C594FA5000313CF /* Script.js in Resources */,
+				4C3152042C594FA5000313CF /* Main.html in Resources */,
+				4C3152112C594FA7000313CF /* Assets.xcassets in Resources */,
+				4C3152082C594FA5000313CF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3152162C594FA8000313CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3152202C594FA8000313CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31522C2C594FA8000313CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C31523D2C594FA8000313CF /* background.js in Resources */,
+				4C3152432C594FA8000313CF /* popup.css in Resources */,
+				4C3152412C594FA8000313CF /* popup.html in Resources */,
+				4C3152392C594FA8000313CF /* images in Resources */,
+				4C31523B2C594FA8000313CF /* manifest.json in Resources */,
+				4C3152372C594FA8000313CF /* _locales in Resources */,
+				4C31523F2C594FA8000313CF /* content.js in Resources */,
+				4C3152452C594FA8000313CF /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3151F82C594FA5000313CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C31520C2C594FA5000313CF /* ViewController.swift in Sources */,
+				4C3152002C594FA5000313CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3152142C594FA8000313CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C31521D2C594FA8000313CF /* Login_AutomatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31521E2C594FA8000313CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3152272C594FA8000313CF /* Login_AutomatorUITests.swift in Sources */,
+				4C3152292C594FA8000313CF /* Login_AutomatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31522A2C594FA8000313CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3152342C594FA8000313CF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C31521A2C594FA8000313CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3151FB2C594FA5000313CF /* Login Automator */;
+			targetProxy = 4C3152192C594FA8000313CF /* PBXContainerItemProxy */;
+		};
+		4C3152242C594FA8000313CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3151FB2C594FA5000313CF /* Login Automator */;
+			targetProxy = 4C3152232C594FA8000313CF /* PBXContainerItemProxy */;
+		};
+		4C3152312C594FA8000313CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C31522D2C594FA8000313CF /* Login Automator Extension */;
+			targetProxy = 4C3152302C594FA8000313CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3152022C594FA5000313CF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3152032C594FA5000313CF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		4C31520D2C594FA5000313CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C31520E2C594FA5000313CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3152482C594FA8000313CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C3152492C594FA8000313CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4C31524B2C594FA8000313CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Login Automator Extension/Login_Automator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Login Automator Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Login Automator Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-Automator.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C31524C2C594FA8000313CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Login Automator Extension/Login_Automator_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Login Automator Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Login Automator Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-Automator.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C31524F2C594FA8000313CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Login Automator/Login Automator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Login Automator";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-Automator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C3152502C594FA8000313CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Login Automator/Login Automator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Login Automator";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-Automator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C3152522C594FA8000313CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-AutomatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Automator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Login Automator";
+			};
+			name = Debug;
+		};
+		4C3152532C594FA8000313CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-AutomatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Automator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Login Automator";
+			};
+			name = Release;
+		};
+		4C3152552C594FA8000313CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-AutomatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Login Automator";
+			};
+			name = Debug;
+		};
+		4C3152562C594FA8000313CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C72DM3VHR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tirth618.Login-AutomatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Login Automator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3151F72C594FA5000313CF /* Build configuration list for PBXProject "Login Automator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3152482C594FA8000313CF /* Debug */,
+				4C3152492C594FA8000313CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C31524A2C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login Automator Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C31524B2C594FA8000313CF /* Debug */,
+				4C31524C2C594FA8000313CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C31524E2C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login Automator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C31524F2C594FA8000313CF /* Debug */,
+				4C3152502C594FA8000313CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3152512C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login AutomatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3152522C594FA8000313CF /* Debug */,
+				4C3152532C594FA8000313CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3152542C594FA8000313CF /* Build configuration list for PBXNativeTarget "Login AutomatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3152552C594FA8000313CF /* Debug */,
+				4C3152562C594FA8000313CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3151F42C594FA5000313CF /* Project object */;
+}
