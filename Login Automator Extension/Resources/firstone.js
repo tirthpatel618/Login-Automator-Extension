@@ -3,8 +3,8 @@ var Imap = require('imap'),
 const {simpleParser} = require('mailparser');
 
 var imap = new Imap({
-  user: 'tirth618@gmail.com',
-  password: 'ugxd rfzq sxvj jfqa',
+  user: 'EMAIL',
+  password: 'PASSWORD',
   host: 'imap.gmail.com',
   port: 993,
   tls: true,
