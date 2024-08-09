@@ -1,10 +1,14 @@
+/*
 var Imap = require('imap'),
     inspect = require('util').inspect;
 const {simpleParser} = require('mailparser');
+*/
+import Imap from "/Users/tirthpatel/Desktop/Login Automator/Login Automator Extension/Resources/node_modules/imap/lib/Connection.js";
+import { simpleParser } from '/Users/tirthpatel/Desktop/Login Automator/Login Automator Extension/Resources/node_modules/mailparser/index.js';
 
 var imap = new Imap({
-  user: 'EMAIL',
-  password: 'PASSWORD',
+  user: 'tirth618@gmail.com',
+  password: 'ugxd rfzq sxvj jfqa',
   host: 'imap.gmail.com',
   port: 993,
   tls: true,

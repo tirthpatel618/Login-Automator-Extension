@@ -5,9 +5,15 @@
 body {
     width: 100px;
     padding: 10px;
-
     font-family: system-ui;
     text-align: center;
+}
+
+button {
+  width: 95px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {

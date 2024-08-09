@@ -4,7 +4,7 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 function replace_code(){
     console.log("button clicked")
-    document.getElementById('popup_text').innerHTML = "bababoey";
+    document.getElementById('popup_text').innerHTML = "CODE";
     console.log("replaced text")
 }
 
